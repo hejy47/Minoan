@@ -1,0 +1,70 @@
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Wed Nov 15 16:28:26 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/rsa_928_metamorphictesting_tb.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/control.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/dff.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/divider.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/inverter.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/mod_exp.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/mod.v'
+Parsing design file '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/RSA.srcs/sources_1/new/mux.v'
+Top Level Modules:
+       tb_main
+       dff
+       divider
+       mux
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+6 modules and 0 UDP read.
+recompiling module tb_main
+recompiling module control
+recompiling module dff
+recompiling module divider
+recompiling module mod
+recompiling module mux
+All of 6 modules done
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/home/user/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib -L/home/user/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib   objs/amcQw_d.o   _104712_archive_1.so  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /home/user/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive          /home/user/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Nov 15 16:28 2023
+
+
+
+*****************************************************
+* RSA Test bench ...
+*****************************************************
+
+
+x =     x R =     x
+
+Error-[FILE_IO] File I/O error 
+/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/rsa_928_metamorphictesting_tb.v, 166
+  An error occurred while performing 'fwrite' on file 
+  '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/output.txt (deleted)'.
+  No space left on device
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 56685375000 ps
+CPU Time:    117.700 seconds;       Data structure size:   0.0Mb
+Wed Nov 15 16:30:29 2023
+
+Error-[FILE_IO] File I/O error 
+/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/rsa_928_metamorphictesting_tb.v, 166
+  An error occurred while performing 'fwrite' on file 
+  '/home/user/APR/Tools/APR4V/MT4V/Data/Mutants/rsa/928/output.txt (deleted)'.
+  No space left on device
+
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 61827985000 ps
+CPU Time:    128.600 seconds;       Data structure size:   0.0Mb
+Wed Nov 15 16:30:29 2023
